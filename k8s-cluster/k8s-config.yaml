@@ -13,8 +13,8 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: main-25-779742019
-        image: nginx:1.16.1 # Update the version of nginx from 1.14.2 to 1.16.1
+      - name: main-26-779745456
+        image: nginx:main-26-779745456 # Update the version of nginx from 1.14.2 to 1.16.1
         ports:
         - containerPort: 80
 --
